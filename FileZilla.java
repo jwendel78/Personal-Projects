@@ -15,7 +15,6 @@ public class FileZilla
     // ==================== Functions ==================== //
     public static String ReadFromFile(String fileName) throws IOException
     { /** Function for reading text from a text file */
-        // Function variables
         String line = "";
         String text = "";
     
@@ -23,7 +22,7 @@ public class FileZilla
 
         //Attempt to read the message from the file the user provided
         try 
-        { // Read the file using the Scanner class
+        { // Read the file using the File class
             File file = new File(fileName);
             BufferedReader fileReader = new BufferedReader(new FileReader(file));
             while((line = fileReader.readLine()) != null) // Reads each individual line until null
