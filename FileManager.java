@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class FileZilla 
+public class FileManager
 { /** All things Strings, Text, and Files */
 
     // =============== Class Variables =============== //
